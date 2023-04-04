@@ -21,6 +21,7 @@
 또한, 프로그램에서는 getIntInput 메소드를 사용하여 사용자로부터 숫자 입력을 받습니다. 이 메소드는 예외 처리를 포함하여 사용자로부터 올바른 입력을 받을 때까지 반복해서 입력을 받습니다.
 
 이 프로젝트를 실행하려면 CarManagementSystem 클래스를 실행하면 됩니다. 프로그램을 종료하려면 9번 옵션을 선택하면 됩니다.
+(JDK11)
 ----------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -46,3 +47,4 @@ The program defines the Car class to store car information. This class has field
 In addition, the program uses the getIntInput method to receive number input from the user. This method repeats input until the user provides valid input, including exception handling.
 
 To run this project, you can execute the CarManagementSystem class. To exit the program, you can select option 9.
+(JDK11)
