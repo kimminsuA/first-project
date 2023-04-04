@@ -1,0 +1,19 @@
++---------------------+ +-----------------------+
+| CarManagementSystem| | Car |
++---------------------+ +-----------------------+
+| - CARS: ArrayList | | - carNumber: String | // 차량번호
+| - INPUT_SCANNER: Scanner | | - carType: String | // 차종
+| - CARS_LIMIT: int | | - manufacturer: String | // 제조사
++---------------------+ | - model: String | // 모델
+| + main(args: String[]): void | +-----------------------+
+| + addCar(): void | | + Car(carNumber: String, carType: String, manufacturer: String, model: String)| // 차량 객체 생성자
+| + printCars(): void | | + getCarNumber(): String| // 차량번호 반환
+| + searchCar(carNumber: int): void | | + setCarNumber(carNumber: String): void | // 차량번호 설정
+| + deleteCar(carNumber: int): void | | + getCarType(): String | // 차종 반환
+| - getIntInput(): int | | + setCarType(carType: String): void | // 차종 설정
+| - getIntInput(message: String): int | | + getManufacturer(): String | // 제조사 반환
++---------------------+ | + setManufacturer(manufacturer: String): void | // 제조사 설정
+| + getModel(): String | // 모델 반환
+| + setModel(model: String): void | // 모델 설정
+| + toString(): String | // 객체를 문자열로 반환
++-----------------------+
