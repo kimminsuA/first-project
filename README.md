@@ -22,7 +22,7 @@
 
 이 프로젝트를 실행하려면 CarManagementSystem 클래스를 실행하면 됩니다. 프로그램을 종료하려면 9번 옵션을 선택하면 됩니다.
 ----------------------------------------------------------------------------------------------------------------------------------
-english
+
 
 This project is a car management system implemented in Java. Users can register new car information and print, search, and delete registered car information.
 
