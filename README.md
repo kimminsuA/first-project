@@ -21,3 +21,28 @@
 또한, 프로그램에서는 getIntInput 메소드를 사용하여 사용자로부터 숫자 입력을 받습니다. 이 메소드는 예외 처리를 포함하여 사용자로부터 올바른 입력을 받을 때까지 반복해서 입력을 받습니다.
 
 이 프로젝트를 실행하려면 CarManagementSystem 클래스를 실행하면 됩니다. 프로그램을 종료하려면 9번 옵션을 선택하면 됩니다.
+----------------------------------------------------------------------------------------------------------------------------------
+english
+
+This project is a car management system implemented in Java. Users can register new car information and print, search, and delete registered car information.
+
+When the program is executed, the user can choose the following options from the main menu:
+
+Register car information
+Print car information
+Search car information
+Delete car information
+Exit
+If the user selects option 1, they can register new car information by entering the car number, car type, manufacturer, and model information. If the number of cars that can be registered exceeds the limit, an exception is handled.
+
+If the user selects option 2, all registered car information is displayed. If there are no registered cars, an exception is handled.
+
+If the user selects option 3, they can search for car information by entering the car number. If no car information is found, an exception is handled.
+
+If the user selects option 4, they can delete car information by entering the car number. If the car information to be deleted does not exist, an exception is handled.
+
+The program defines the Car class to store car information. This class has fields that store car number, car type, manufacturer, and model information, as well as getter/setter methods.
+
+In addition, the program uses the getIntInput method to receive number input from the user. This method repeats input until the user provides valid input, including exception handling.
+
+To run this project, you can execute the CarManagementSystem class. To exit the program, you can select option 9.
